@@ -1,7 +1,7 @@
 {
-  "name": "openlayers-react-functional-component",
-  "description": "OpenLayers Example in React using a functional component",
-  "homepage": "https://dietrichmax.github.io/openlayers-react-functional-component/",
+  "name": "openlayers-react-class-component",
+  "description": "Basic example for using OpenLayers 6 with React and class components.",
+  "homepage": "https://dietrichmax.github.io/openlayers-react-class-component/",
   "version": "0.1.0",
   "private": false,
   "dependencies": {

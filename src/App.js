@@ -1,18 +1,21 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
 import { Map, View } from 'ol';
 import TileLayer from 'ol/layer/Tile';
 import OSM from 'ol/source/OSM';
 import 'ol/ol.css';
 
-function App() {
-    const [map, setMap] = useState();
-    const mapElement = useRef();
-    const mapRef = useRef();
-    mapRef.current = map;
+export default class App extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+          center: [0, 0],
+          zoom: 0,
+      };
+    }
 
-    useEffect(() => {
-        const initialMap = new Map({
-          target: mapElement.current,
+    componentDidMount() {
+        new Map({
+          target: "map-container",
             layers: [
                 new TileLayer({
                     source: new OSM(),
@@ -23,12 +26,11 @@ function App() {
                 zoom: 0,
             }),
         });
-        setMap(initialMap);
-    }, []);
+    }
 
-    return (
-      <div style={{height:'100vh',width:'100%'}} ref={mapElement} className="map-container" />
-    );
+    render() {
+        return (
+        <div style={{height:'100vh',width:'100%'}} id="map-container" className="map-container" />
+        );
+    }
 }
-
-export default App;
