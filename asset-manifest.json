@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/openlayers-react-class-component/static/css/main.bf5e3829.chunk.css",
+    "main.js": "/openlayers-react-class-component/static/js/main.40d91584.chunk.js",
+    "main.js.map": "/openlayers-react-class-component/static/js/main.40d91584.chunk.js.map",
+    "runtime-main.js": "/openlayers-react-class-component/static/js/runtime-main.86d228a6.js",
+    "runtime-main.js.map": "/openlayers-react-class-component/static/js/runtime-main.86d228a6.js.map",
+    "static/css/2.eccf263d.chunk.css": "/openlayers-react-class-component/static/css/2.eccf263d.chunk.css",
+    "static/js/2.28be8f4c.chunk.js": "/openlayers-react-class-component/static/js/2.28be8f4c.chunk.js",
+    "static/js/2.28be8f4c.chunk.js.map": "/openlayers-react-class-component/static/js/2.28be8f4c.chunk.js.map",
+    "index.html": "/openlayers-react-class-component/index.html",
+    "static/css/2.eccf263d.chunk.css.map": "/openlayers-react-class-component/static/css/2.eccf263d.chunk.css.map",
+    "static/css/main.bf5e3829.chunk.css.map": "/openlayers-react-class-component/static/css/main.bf5e3829.chunk.css.map",
+    "static/js/2.28be8f4c.chunk.js.LICENSE.txt": "/openlayers-react-class-component/static/js/2.28be8f4c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86d228a6.js",
+    "static/css/2.eccf263d.chunk.css",
+    "static/js/2.28be8f4c.chunk.js",
+    "static/css/main.bf5e3829.chunk.css",
+    "static/js/main.40d91584.chunk.js"
+  ]
+}
